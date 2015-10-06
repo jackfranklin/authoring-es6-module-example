@@ -1,0 +1,14 @@
+{
+  "name": "jf-fowa-test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/githubby.js",
+  "scripts": {
+    "prepublish": "./node_modules/.bin/babel -d lib src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
