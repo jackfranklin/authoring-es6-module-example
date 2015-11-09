@@ -4,11 +4,12 @@
   "description": "",
   "main": "lib/githubby.js",
   "scripts": {
-    "prepublish": "./node_modules/.bin/babel -d lib src/"
+    "prepublish": "babel -d lib src/"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^5.8.23"
+    "babel-cli": "^6.1.2",
+    "babel-preset-es2015": "^6.1.2"
   }
 }
